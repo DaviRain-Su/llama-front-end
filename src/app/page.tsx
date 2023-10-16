@@ -35,6 +35,7 @@ export default function Home() {
       <h1 className="text-3xl text-gray-700 mb-6">LLama Chat</h1>
       <div className="w-4/5 flex flex-col mb-6 space-y-4">
         <textarea
+          style={{ color: 'black' }}
           className="w-full h-24 p-3 border rounded resize-none"
           value={prompt}
           onChange={e => setPrompt(e.target.value)}
