@@ -43,7 +43,7 @@ export default function Home() {
         />
         <button className="bg-blue-500 text-white p-3 rounded hover:bg-blue-600 self-end" onClick={handleAsk}>Ask</button>
       </div>
-      <div className="w-4/5 p-5 bg-white rounded shadow-md" dangerouslySetInnerHTML={{ __html: response }}></div>
+      <div className="w-4/5 p-5 bg-white rounded shadow-md text-black" dangerouslySetInnerHTML={{ __html: response }}></div>
 
       {/* Social Links */}
       <div className="mt-6">
