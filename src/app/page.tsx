@@ -24,7 +24,7 @@ export default function Home() {
 
     const formattedResponse = rawResponse
       .split('\n')
-      .map(paragraph => `<p>${paragraph}</p>`)
+      .map((paragraph: string) => `<p>${paragraph}</p>`)
       .join('');
 
     setResponse(formattedResponse || "No response.");
